@@ -30,7 +30,6 @@ Celsius::operator Kelvin() const {
     return Kelvin(temperature + 273.15);
 }
 
-
 class Farenheit {
 public:
     Farenheit() { }
